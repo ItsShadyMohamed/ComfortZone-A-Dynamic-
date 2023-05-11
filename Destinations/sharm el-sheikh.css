@@ -1,0 +1,224 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+/* Set background color and border for the body */
+body {
+    background-color: white;
+    border: 1px solid gray;
+}
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  border-bottom: 1px solid gray;
+  
+}
+header nav {
+  display: flex;
+  margin-right: auto;
+}
+.header-link {
+  color: rgb(33, 23, 23);
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  transition: transform 0.1s;
+}
+.header-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(65,43,43);
+  transform: scale(1.2);
+}
+  nav ul {
+      display: flex;
+      list-style: none;
+      
+  }
+  nav li {
+      margin: 20px;
+  }
+  nav a {
+      text-decoration: none;
+      color: rgb(33, 23, 23);
+      font-size: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight:bold;
+  }
+.Sign-in-up{
+  display: flex;
+}
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  height: 45px;
+  width: 90px;
+  background-color: rgb(65,43,43);
+  border-radius: 35px 15px 35px 15px;
+}
+.log-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(65, 43, 43);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 45px;
+  width: 90px;
+  background-color: rgb(172, 151, 151);
+  border-radius: 35px 15px 35px 15px;
+}
+.log-in:hover{
+  background-color:rgb(65, 43, 43);
+  color: white;
+}
+/* Center the title text */
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+/* Set the section with image background */
+.section {
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/1946049.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/* Center the text within the section and set larger font size */
+.section h2 {
+  text-align: center;
+  color: rgb(33, 23, 23);
+  text-transform: uppercase;
+  font-size: 48px;
+}
+/* Add a new section with image and description */
+.section2 {
+    background-color: rgb(33,23,23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+/* Set the image size and margin */
+.section2 img {
+    width: 600px;
+    margin-right: 40px;
+}
+/* Set the description text style and larger font size */
+.section2 p {
+    color: white;
+    font-size: 36px;
+}
+.white-section {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.text-section {
+  flex-basis: 50%;
+  padding-right: 20px;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.text-section p {
+  font-size: 28px;
+}
+
+.image-section {
+  flex-basis: 50%;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+.black-section {
+  background-color: rgb(33,23,23);
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.video-wrapper video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.footer{
+  background-color:rgb(33, 23, 23);
+  left:0;
+  bottom:0;
+  width: 100%; 
+  margin-top: 60px;
+
+
+}
+.footer-link{
+color: white;
+text-decoration: none;
+position: relative;
+display: inline-block;
+overflow: hidden;
+transition: transform 0.5s ease-in-out;
+}
+.footer-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: rgb(65,43,43);
+    transform: translateX(20px);
+}
+.footer-table {
+margin: 0;
+padding: 0;
+color: white;
+font-size: 20px;
+border-collapse: collapse;
+}
+.footer-table th{
+  font-weight: normal;
+  font-size: 24px;
+  padding: 20px 60px;   
+  text-transform: uppercase;
+}
+.footer-table td{
+  padding: 10px 80px;
+  color: #a3a3a3;
+}
+.image-container{
+  display: flex;
+  justify-content: center;
+}
